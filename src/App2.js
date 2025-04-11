@@ -1,27 +1,25 @@
-import logo from './cecil.gif';
+import logo from './a-minecraft-movie-garrett.gif';
 import './App.css';
 
-function App() {
+function App2() {
   return (
-    <div className="App">
+    <div className="App2">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Save me Cecil
-        
-        I need you sea salt
+        They all yelled Chicken Jockey in unison
         </p>
         <a
           className="App-link"
-          href="https://c.tenor.com/FYuIAItpI-kAAAAd/tenor.gif"
+          href="https://c.tenor.com/GPGh9W-BaiEAAAAC/tenor.gif"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Press to save Mark
+          Open link
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default App2;
