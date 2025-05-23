@@ -1,27 +1,20 @@
-import logo from './cecil.gif';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Bosses from './pages/Bosses';
+import Map from './pages/Map';
+import Purchase from './pages/Purchase';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Save me Cecil
-        
-        I need you sea salt
-        </p>
-        <a
-          className="App-link"
-          href="https://c.tenor.com/FYuIAItpI-kAAAAd/tenor.gif"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Press to save Mark
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/bosses" element={<Bosses />} />
+      <Route path="/map" element={<Map />} />
+      <Route path="/purchase" element={<Purchase />} />
+    </Routes>
+  </>
+);
 
 export default App;
