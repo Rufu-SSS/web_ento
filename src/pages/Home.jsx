@@ -13,12 +13,15 @@ const Home = () => (
       <p>Aventura, misteri i desafiaments t'esperen...</p>
     </section>
     <section>
-      <h2 class="goldenorder">The Golden Order is broken.</h2>
-      <p>Rise, Tarnished, and may grace guide you to embrace the power of the Elden Circle and rise as lord of the Circle in the Lands Between.<br/><br/>
-In the Lands Between, ruled by Queen Márika, the Eternal, the Elden Circle, source of the Golden Tree, has been destroyed.<br/><br/>
-Márika's descendants, demigods all, claimed the fragments of the Elden Circle known as the Great Runes. It was then that the insane corruption of their renewed strength sparked a war: the Searing.<br/><br/>
-A war that resulted in the abandonment of the Greater Will. And now, the grace that guides us will fall upon the Lightless, spurned by the grace of gold and exiled from the Lands Between. You who have died, yet live, with your grace time has lost, walk the path to the Middle Lands beyond the misty sea to bow before the Circle of Elden.<br/><br/>
-And become the lord of the Circle.</p>
+      <h2 class="goldenorder">L'ordre daurada s'ha trencat.</h2>
+      <p>Aixeca't sensellum, i que la gràcia et guii a recuperar el poder del cercle d'Elden, aixeca't com a lord del cercle.
+      <br/><br/>
+      Les terres Intermèdies van ser regnades per la Reina Márika, l'Eterna, el cercle d'elden s'ha trencat.
+      <br/><br/>
+      Tots els fills semidéus de Márika, es van quedar els fragments trencats del cercle d'Elden, coneguts com grans Runes.
+      <br/><br/>
+      Una guerra que va resultar en l'abandonament total de la Gran Voluntat. I ara la gràcia ens guia a nosaltres els sensellum a reparar el cercle 
+      </p>
     </section>
     <img class="premis" src={premisImg}/> <br/>
     <img class="premis2" src={mespremisImg}/> <br/>
